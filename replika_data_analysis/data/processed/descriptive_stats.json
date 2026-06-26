@@ -1,0 +1,12 @@
+{
+  "total_posts": 525,
+  "avg_length_chars": 2017,
+  "median_length_chars": 1472,
+  "avg_word_count": 374,
+  "unique_users": 411,
+  "users_with_1_post": 351,
+  "users_with_2_posts": 41,
+  "users_with_3plus_posts": 19,
+  "earliest_post": "2018-12",
+  "latest_post": "2026-04"
+}

@@ -1,0 +1,26 @@
+[project]
+name = "replika-data-analysis"
+version = "0.1.0"
+description = "Reddit data pipeline for analysing anxious attachment patterns in Replika AI users"
+authors = [
+    {name = "Sarah-45", email = "153022950+Sarah-45@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.31.0",
+    "pandas>=2.2.0",
+    "numpy>=1.26.0",
+    "pydantic>=2.0.0",
+    "openpyxl>=3.1.0",
+    "scipy>=1.13.0",
+    "python-dotenv>=1.0.0",
+    "ollama>=0.3.0",
+]
+
+[tool.poetry]
+packages = [{include = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
