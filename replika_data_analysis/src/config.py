@@ -6,8 +6,8 @@ from dotenv import load_dotenv
 _PROJECT_ROOT = Path(__file__).parent.parent
 
 load_dotenv(_PROJECT_ROOT, override=True)
-#Replace with your own Anthropic API key. The key shown here is an example and will not work.
-ANTHROPIC_API_KEY: str | None = os.environ.get("ANTHROPIC_API_KEY", "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")
+#Replace with your own Anthropic API key.
+ANTHROPIC_API_KEY: str | None = os.environ.get("ANTHROPIC_API_KEY", "your-api-key-here")
 OLLAMA_PILOT_MODE: bool = os.environ.get("OLLAMA_PILOT_MODE", "false").lower() == "true"
 
 DATA_DIR           = _PROJECT_ROOT / "data"
